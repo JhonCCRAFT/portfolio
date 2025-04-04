@@ -1197,6 +1197,12 @@ video {
   background-image: url('/img/icon-close.svg');
 }
 
+@media (min-width: 640px) {
+  .sm\:block {
+    display: block;
+  }
+}
+
 @media (min-width: 768px) {
   .md\:m-0 {
     margin: 0px;
@@ -1218,6 +1224,10 @@ video {
 
   .md\:mt-4 {
     margin-top: 1rem;
+  }
+
+  .md\:hidden {
+    display: none;
   }
 
   .md\:w-\[60\%\] {
